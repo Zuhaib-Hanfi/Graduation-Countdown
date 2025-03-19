@@ -1,0 +1,40 @@
+body {
+    background-color: peachpuff;
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    margin: 2.5rem;
+    gap: 2rem;
+}
+
+h1 {
+    align-self: center;
+    justify-self: center;
+    font-size: 3cqw;
+    font-family: cursive;
+}
+
+#timeDisplay {
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px black;
+    padding: 4rem;
+    height: 20vh;
+    width: 50vw;
+    color: rgb(88, 176, 211);
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    font-size: 2.2rem;
+    font-family: cursive;
+}
+
+#timeDisplay:hover {
+    transition: 1.5s;
+    color: black;
+    background-color:skyblue;
+    scale: 1.02;
+
+}
